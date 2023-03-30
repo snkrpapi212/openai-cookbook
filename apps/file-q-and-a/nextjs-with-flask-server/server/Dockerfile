@@ -17,8 +17,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
-# Define environment variable
-ENV OPENAI_API_KEY "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"
-
 # Run app.py when the container launches
 CMD [ "python", "app.py" ]
